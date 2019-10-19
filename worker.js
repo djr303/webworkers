@@ -41,6 +41,12 @@
 } */
 
 // example eight
-onmessage = (e) => {
+/* onmessage = (e) => {
   console.log('hello')
+} */
+
+// example nine
+onmessage = (e) => {
+  console.log('e.data.fn', e.data.fn)
+  // throw e
 }
